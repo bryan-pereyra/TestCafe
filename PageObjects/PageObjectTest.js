@@ -1,4 +1,3 @@
-import { Selector } from 'testcafe';
 import Apple from './Apple.js';
 import ContactUs from './ContactUs.js';
 

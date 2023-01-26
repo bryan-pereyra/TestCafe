@@ -1,14 +1,22 @@
 {
-    "src": "./PageObjects/",
-    "browsers": ["chrome"],
+    "src": "./MicrosoftWebApp/",
+    "browsers": "lambdatest:Chrome@74.0:Windows 8",
+    "reporter": [
+        "spec",
+        {
+            "name": "xunit",
+            "output": "report.xml"
+        }
+    ],
     "output": "reports/report.xml",
     "screenshots": {
-        "takeOnFails": true
+        "takeOnFails": false
     },
     "debugOnFail": true,
     "selectorTimeout": 3000,
     "assertionTimeout": 1000,
     "pageLoadTimeout": 1000,
     "concurrency": 1,
-    "speed": 1
+    "speed": 1,
+    "skipJsErrors": true
 }
