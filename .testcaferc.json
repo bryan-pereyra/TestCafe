@@ -1,6 +1,6 @@
 {
     "src": "./MicrosoftWebApp/",
-    "browsers": "lambdatest:Chrome@74.0:Windows 8",
+    "browsers": "chrome",
     "reporter": [
         "spec",
         {
