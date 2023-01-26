@@ -1,5 +1,5 @@
 {
-    "src": "./PageModel/",
+    "src": "./PageObjects/",
     "browsers": ["chrome"],
     "output": "reports/report.xml",
     "screenshots": {
