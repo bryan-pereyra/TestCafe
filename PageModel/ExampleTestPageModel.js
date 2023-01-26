@@ -1,4 +1,5 @@
 import page from './mainPage.js';
+import { Selector } from 'testcafe';
 
 fixture `My fixture`
     .page `https://devexpress.github.io/testcafe/example/`;
@@ -17,4 +18,12 @@ test('Click check boxes and then verify their state', async t => {
             .click(feature.label)
             .expect(feature.checkbox.checked).ok();
     }
+});
+
+test('Submit a developer name and check the header', async t => {
+    const header = Selector('#article-header');
+
+    await page.submitName('Peter');
+
+    await t.expect(header.innerText).eql('Thank you, Peter!');
 });
