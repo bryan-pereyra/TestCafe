@@ -1,6 +1,6 @@
 {
     "src": "./MicrosoftWebApp/",
-    "browsers": "chrome:headless",
+    "browsers": "chrome",
     "reporter": [
         "spec",
         {
