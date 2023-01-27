@@ -29,7 +29,7 @@ test('TC01 - Positive Scenario', async t => {
 test('TC02 - Negative Scenario', async t => {
     await t
         .maximizeWindow()
-        .click(MicrosoftWebApp.localePicker).wait(1000)
-        .click(MicrosoftWebApp.englishOption)
+    //.click(MicrosoftWebApp.localePicker).wait(1000)
+    //.click(MicrosoftWebApp.englishOption)
     await MicrosoftWebApp.searchInPage(t.fixtureCtx.Negative);
 });

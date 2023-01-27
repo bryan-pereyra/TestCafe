@@ -1,6 +1,6 @@
 {
     "src": "./MicrosoftWebApp/",
-    "browsers": "path:`C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe`",
+    "browsers": "chrome:headless",
     "reporter": [
         "spec",
         {
@@ -10,9 +10,9 @@
     ],
     "output": "reports/report.xml",
     "screenshots": {
-        "takeOnFails": false
+        "takeOnFails": true
     },
-    "debugOnFail": true,
+    "debugOnFail": false,
     "selectorTimeout": 3000,
     "assertionTimeout": 1000,
     "pageLoadTimeout": 1000,

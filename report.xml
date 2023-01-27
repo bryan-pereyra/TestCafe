@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite name="TestCafe Tests: Chrome 109.0.0.0 / Windows 11" tests="2" failures="1" skipped="0" errors="1" time="216.377" timestamp="Fri, 27 Jan 2023 17:34:49 GMT" >
-  <testcase classname="Microsoft Fixture" file="C:\Users\bryan.pereyra\TestCafeFramework\MicrosoftWebApp\Test.js" name="TC01 - Positive Scenario" time="189.879">
+<testsuite name="TestCafe Tests: Chrome 109.0.5414.120 / Windows 11" tests="2" failures="0" skipped="0" errors="0" time="82.973" timestamp="Fri, 27 Jan 2023 18:26:50 GMT" >
+  <testcase classname="Microsoft Fixture" file="C:\Users\bryan.pereyra\TestCafeFramework\MicrosoftWebApp\Test.js" name="TC01 - Positive Scenario" time="68.26">
   </testcase>
-  <testcase classname="Microsoft Fixture" file="C:\Users\bryan.pereyra\TestCafeFramework\MicrosoftWebApp\Test.js" name="TC02 - Negative Scenario" time="25.621">
-    <failure>
-    <![CDATA[
-      1) The specified selector does not match any element in the DOM tree.
-
-            | Selector('a')
-          > |   .withAttribute('href', 'https://www.microsoft.com/en-us/')
-
-         Browser: Chrome 109.0.0.0 / Windows 10
-
-            28 |
-            29 |test('TC02 - Negative Scenario', async t => {
-            30 |    await t
-            31 |        .maximizeWindow()
-            32 |        .click(MicrosoftWebApp.localePicker).wait(1000)
-          > 33 |        .click(MicrosoftWebApp.englishOption)
-            34 |    await MicrosoftWebApp.searchInPage(t.fixtureCtx.Negative);
-            35 |});
-
-            at <anonymous> (C:\Users\bryan.pereyra\TestCafeFramework\MicrosoftWebApp\Test.js:33:10)
-            at asyncGeneratorStep (C:\Users\bryan.pereyra\TestCafeFramework\MicrosoftWebApp\Test.js:1:49)
-            at _next (C:\Users\bryan.pereyra\TestCafeFramework\MicrosoftWebApp\Test.js:1:49)
-            at <anonymous> (C:\Users\bryan.pereyra\TestCafeFramework\MicrosoftWebApp\Test.js:1:49)
-            at <anonymous> (C:\Users\bryan.pereyra\TestCafeFramework\MicrosoftWebApp\Test.js:1:49)
-            at <anonymous> (C:\Users\bryan.pereyra\TestCafeFramework\MicrosoftWebApp\Test.js:35:2)
-    ]]>
-    </failure>
+  <testcase classname="Microsoft Fixture" file="C:\Users\bryan.pereyra\TestCafeFramework\MicrosoftWebApp\Test.js" name="TC02 - Negative Scenario" time="13.792">
   </testcase>
 </testsuite>
