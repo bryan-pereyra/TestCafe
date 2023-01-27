@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite name="TestCafe Tests: Chrome 109.0.0.0 / Windows 11" tests="2" failures="0" skipped="0" errors="0" time="83.717" timestamp="Thu, 26 Jan 2023 22:07:51 GMT" >
-  <testcase classname="Microsoft Fixture" file="C:\Users\bryan.pereyra\TestCafeFramework\MicrosoftWebApp\Test.js" name="TC01 - Positive Scenario" time="58.585">
+<testsuite name="TestCafe Tests: Chrome 109.0.0.0 / Windows 11" tests="2" failures="0" skipped="0" errors="0" time="119.929" timestamp="Fri, 27 Jan 2023 14:15:31 GMT" >
+  <testcase classname="Microsoft Fixture" file="C:\Users\bryan.pereyra\TestCafeFramework\MicrosoftWebApp\Test.js" name="TC01 - Positive Scenario" time="89.546">
   </testcase>
-  <testcase classname="Microsoft Fixture" file="C:\Users\bryan.pereyra\TestCafeFramework\MicrosoftWebApp\Test.js" name="TC02 - Negative Scenario" time="25.078">
+  <testcase classname="Microsoft Fixture" file="C:\Users\bryan.pereyra\TestCafeFramework\MicrosoftWebApp\Test.js" name="TC02 - Negative Scenario" time="30.259">
   </testcase>
 </testsuite>

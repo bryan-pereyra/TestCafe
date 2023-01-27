@@ -13,8 +13,8 @@
     ],
     "author": "",
     "license": "ISC",
-    "dependencies": {
-        "testcafe": "^1.7.1",
+    "devDependencies": {
+        "testcafe": "^2.2.0",
         "testcafe-reporter-xunit": "^2.2.2"
     }
 }
